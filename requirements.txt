@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+prophet
+matplotlib
+seaborn
+ucimlrepo
+holidays
