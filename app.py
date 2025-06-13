@@ -74,6 +74,7 @@ def predict_overall_sales(periods, output_choice):
     output_df['yhat'] = output_df['yhat'].round(2)
     output_df['yhat_lower'] = output_df['yhat_lower'].round(2)
     output_df['yhat_upper'] = output_df['yhat_upper'].round(2)
+    output_df['ds'] = output_df['ds'].dt.strftime('%Y-%m-%d')
 
     total_sales_sum = output_df['yhat'].sum().round(2)
 
