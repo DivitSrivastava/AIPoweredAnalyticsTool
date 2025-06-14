@@ -1,4 +1,7 @@
 gradio
+dill
+lifetimes
+ucimlrepo
 pandas
 numpy
 prophet
