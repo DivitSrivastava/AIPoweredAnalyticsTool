@@ -1,0 +1,17 @@
+# UI & API
+gradio>=5.0.0
+langchain
+langchain-community
+langchain-classic
+langchain-groq
+
+# Data Science & Plotting
+pandas>=2.2.3
+numpy>=2.1.0
+prophet
+plotly
+matplotlib
+seaborn
+lifetimes
+ucimlrepo
+dill
